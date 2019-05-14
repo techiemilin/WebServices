@@ -1,0 +1,16 @@
+HTTP methods we can use in Postman
+
+Testing REST services using Postman tool:
+___________________________________________
+
+-----HTTP Requests Methods-----
+Create a record - POST 
+Retrieve the record - GET
+Update a record - PUT
+delete a record - delete request
+
+https://reqres.in/
+
+URL = Domain + URI + Query Parameter after "?" also called as END POINT
+
+www.gogole.com - domain

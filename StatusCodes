@@ -1,0 +1,68 @@
+1XX - informational 
+2XX - Success
+3XX - Redirection
+4XX - Client Error
+5XX - Server Error
+
+
+**************************************************
+
+1XX - informational 
+
+100 - continue 
+101 - switching protocol 
+102 - check point
+
+
+**************************************************
+
+**************************************************
+
+2XX - Success
+
+200 - OK (Get) 
+201 - created
+202 - Accepted
+205 - Successfully reseted
+206 - Partial content
+
+**************************************************
+
+**************************************************
+
+3XX - Redirection
+
+301 - moved permanently
+302 - found
+304 - not modified
+305 - use proxy
+307 - Temporary redirected
+
+**************************************************
+
+**************************************************
+
+4XX - Client Error
+
+400 - Bad Request
+401 - unauthorized 
+403 - Forbidden
+404 - Not Found
+408 - Request Timeout
+
+**************************************************
+
+**************************************************
+
+
+
+**************************************************
+
+5XX - Server Error
+
+500 - Internal server Error
+502 - Bad Gateway 
+503 - service unavailable
+504 - gateway timeout
+
+**************************************************

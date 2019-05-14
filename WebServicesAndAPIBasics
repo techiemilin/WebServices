@@ -1,0 +1,121 @@
+
+What is client?
+
+A client is computer or software that accesses a services made available by server. 
+the server is often but not always located on a separate location on separate physical computer. 
+
+
+What is server?
+
+A server is physical computer dedicated to run services to serve the needs of the other computers.
+Depending on the services that is running, it could be a server file, database server, home media, 
+print server or web server.
+
+
+
+client/server there are 3 types of architecture
+
+1-tier architecture 
+2-tier architecture
+3-tier architecture
+
+
+1-tier architecture
+server and client reside in same system/network
+
+
+2-tier architecture
+client tier and database tier are on different location  
+
+3-tier architecture
+client tier- 
+business logic - web server
+database tier - database server
+
+
+client layer - also known as presentation layer ( HTML, JAVA Script, CSS) 
+Business logic/web server - Java, python, rubi, C# 
+Database layer - MySQL, Oracle, PostgreSQL, SQL server. 
+
+all are on different location 
+
+
+What is API?
+
+Application Programming Interface
+it enables communication and data exchange between two separate software systems. 
+A software system implementing an API contains functions/sub-routines which can be executed by another software system. 
+
+
+
+Difference betweeen Unit testing and API testing
+
+Unit Testing														API Testing
+
+1)Developers perform it 								Tester perform it 
+2) separate functionality is tested 					End to end functionality is tested 
+3) Developer can access the source code					Tester can not access the source code
+4) UI testing also involved (User Interface)			Only API functions are tested
+5) only basic functionalities are tested				all functional issues are tested
+6) Limited in scope										Broader in scope
+7) usually ran before check-in 							ran after build is created
+
+
+ 
+SOAP services and REST services
+********SOAP - simple object access protocol
+ ( old technology, HTTP medium (POST Request Only) XML format only 
+ 
+ 
+********REST - REpresentational state transfer 
+( new technology, HTTP medium(POST, GET,PUT,DELETE....) XML/JSON/TEXT format
+
+GET request - we can get the data from database via GET request - to get the resource - SELECT in SQL
+POST- there is no data in database present by POST request we can create or generate the records - to create new resources - INSERT in SQL
+PUT - data is already present and we can update by PUT request - to update new resources - UPDATE in SQL
+DELETE - if we want to delete the data from database - to delete the resources - DELETE in SQL
+
+
+challenges
+
+1. initial setup for API testing environment 
+2. updating the schema of API testing
+3. testing parameter combinations
+4. sequencing the API calls
+5. Validating parameters
+
+
+TOOLS Available:
+--SoapUI
+--POSTMAN
+--JMeter
+--REST-assured - API Automation testing using java code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
